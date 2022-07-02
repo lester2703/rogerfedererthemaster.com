@@ -15,9 +15,15 @@ if ($conn->connect_error) {
 
 $sql = "INSERT INTO Emails VALUES('$email')";
 
-if ($conn->query($sql) === TRUE) {
-    header('Location: index.php?newsletter=1');
-    echo '<script>alert("Message")</script>';
-} else {
-    echo "Error: " . $sql . "<br>" . $conn->error;
+if (true) {
+    if ($conn->query($sql) === TRUE) {
+        header('Location: index.php?newsletter=1');
+    } else {
+        echo "Error: " . $sql . "<br>" . $conn->error;
+    }
 }
+else
+{
+    header('Location: index.php?newsletter=1');
+}
+
