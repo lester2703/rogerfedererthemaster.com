@@ -29,7 +29,7 @@
         <div class="row">
             
             <div class="col-sm-4" >
-                <h3>cc all!</h3>
+                <h3>Welcome all!</h3>
                 <p>
                     More than three years ago, I started to share pictures of my idol Roger Federer on Instagram.
                     As of today, more than 45.000 fans have joined the community by subscribing to my fanpage.<br>
