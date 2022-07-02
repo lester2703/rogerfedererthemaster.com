@@ -25,8 +25,7 @@
             </div>
             <div class="col-sm-4">
                 <h3>Newsletter</h3>
-                <!-- <form action="inscriptionNewsletter.php" method="post"> -->
-                <form>
+                <form action="inscriptionNewsletter.php" method="post">
                     <div class="form-group">
                         <input type="email" style="width: 300px;" name="Email"
                                placeholder="Email adress">

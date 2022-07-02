@@ -25,6 +25,13 @@
 <body class="bodyHome">
     <?php include("entete.php"); ?>
 
+    <?php
+    if (isset($_GET['newsletter'])) {
+        if ($_GET['newsletter'] == 1)
+            //echo "<p style='color:#22ff00; text-align: center; font-size: 20px;font-weight: bold'><br>Signed up!</p>";
+            echo '<script>alert("Subscription to the newsletter is registered.")</script>';
+    }?>
+
     <div class="container mt-5" style="color: rgb(255, 255, 255);">
         <div class="row">
             
