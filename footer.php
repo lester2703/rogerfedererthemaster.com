@@ -16,7 +16,7 @@
             <div class="col-sm-4">
                 <h3>Contact</h3>
                 Allister K.<br>
-                <a href="mailto:contact@rogerfedererthemaster.com">contact@rogerfedererthemaster.com</a>
+                <a href="mailto:contact@rogerfedererthemaster.com">contact@rogerfedererthemaster.com</a><br>
             </div>
             <div class="col-sm-4">
                 <h3>Instagram</h3>
