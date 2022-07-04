@@ -49,13 +49,15 @@
                 <ul>
                     <!--
                     va jouer : &#9989;
-                    on ne sait pas sûr : &#10067;
+                    on ne sait pas : &#10067;
                     ne vas pas jouer : 	&#10060;
-                    -->
+
                     <li>Laver Cup (London) &#9989; : Sept 23-25, 2022<br></li>
                     <li>ATP 1000 - Shanghai &#10067;<br></li>
                     <li>ATP 500 - Basel &#9989; : Oct 24-30, 2022<br></li>
                     <li>ATP 1000 - Paris &#10067;<br></li>
+                    -->
+                    <?php include("getTournaments.php"); ?>
                 </ul>
             </div>
             

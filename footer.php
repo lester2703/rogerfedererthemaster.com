@@ -35,7 +35,6 @@
                 </form>
             </div>
         </div>
+        <br>
     </div>
-    <br>
-</div>
 </html>
