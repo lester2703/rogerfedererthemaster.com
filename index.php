@@ -52,7 +52,10 @@
             </div>
             
             <div class="col-sm-4">
-                <img width="350px" src="Images/video.gif">
+                <h3>Last matches</h3>
+                <ul>
+                    <?php include("getLastMatches.php"); ?>
+                </ul>
             </div>
         </div>
     </div>
