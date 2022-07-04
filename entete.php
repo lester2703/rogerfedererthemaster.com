@@ -1,10 +1,10 @@
 <div class="container">
-<center>
-    <br><br>
-    <a href="index.php">
-        <img src="Images/RFTM2.png" alt="Logo" title="Logo RFTM" width="230"/>
-    </a>
-</center>
+    <center>
+        <br><br>
+        <a href="index.php">
+            <img src="Images/RFTM2.png" alt="Logo" title="Logo RFTM" width="230"/>
+        </a>
+    </center>
 </div>
 
 <div class="container"><br><br>
@@ -45,7 +45,8 @@
     </div>
 
     <center>
-        <iframe class="container" src="https://static.rolex.com/clocks/2020/federer_mobile_HTML_180x75/rolex.html" class="m_rolex_clock"
+        <iframe class="container" src="https://static.rolex.com/clocks/2020/federer_mobile_HTML_180x75/rolex.html"
+                class="m_rolex_clock"
                 SCROLLING=NO frameborder=NO width="1110px" height="75px"></iframe>
     </center>
 </div>
