@@ -16,7 +16,15 @@ $result = $conn->query($sql);
 
 if ($result->num_rows > 0) {
     while($row = $result->fetch_assoc()) {
-        echo "<li>" . $row["TypeTournoi"] . " - ";
+        if ($row["TypeTournoi"] != '')
+        {
+            echo "<li>" . $row["TypeTournoi"] . " - ";
+        }
+        else
+        {
+            echo "<li>";
+        }
+
         echo " " . $row["Nom"];
         if ($row["Joue"] == 1) //va jouer
         {
@@ -42,6 +50,7 @@ if ($result->num_rows > 0) {
         {
             echo " : " . $row["DATE_FORMAT(DateDebut, '%b %e')"];
             echo " - " . $row["DATE_FORMAT(DateFin, '%b %e')"];
+            echo ", " . $row["YEAR(DateDebut)"];
         }
     }
 
