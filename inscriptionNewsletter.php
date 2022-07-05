@@ -13,9 +13,9 @@ if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
 
-$sql = "INSERT INTO Emails VALUES('$email')";
+$sql = "INSERT INTO Emails(Email) VALUES('$email')";
 
-if (isset($email)) {
+if ( $email != "" ) {
     if ($conn->query($sql) === TRUE) {
         header('Location: index.php?newsletter=1');
     } else {
@@ -26,4 +26,3 @@ else
 {
     header('Location: index.php');
 }
-

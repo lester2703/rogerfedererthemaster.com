@@ -17,11 +17,11 @@ if ($result->num_rows > 0) {
     while($row = $result->fetch_assoc()) {
         if ($row["Win"] == 1)
         {
-            echo "<li>" . $row["Tournament"] . ": R. Federer defeated " . $row["Opponent"] . " " . $row["Score"] . " &#9989";
+            echo "<li><strong>" . $row["Tournament"] . ":</strong> R. Federer defeated " . $row["Opponent"] . " " . $row["Score"] . " &#9989";
         }
         else
         {
-            echo "<li>" . $row["Tournament"] . ": " . $row["Opponent"] . " defeated R. Federer " . $row["Score"] . " &#10060";
+            echo "<li><strong>" . $row["Tournament"] . ":</strong> " . $row["Opponent"] . " defeated R. Federer " . $row["Score"] . " &#10060";
         }
     }
 
