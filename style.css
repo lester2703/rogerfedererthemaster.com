@@ -21,6 +21,10 @@ a:hover
 	text-decoration: none;
 }
 
+.logoSponsors:hover
+{
+	border: 2px solid transparent;
+}
 
 /*
 p

@@ -45,16 +45,16 @@
                 </a>
                 <br>
                 -->
-                <a href="https://www.wilson.com/" target="_blank">
-                    <img src="Images/logoWilson.png" width="40px">
+                <a  href="https://www.wilson.com/" target="_blank">
+                    <img class="logoSponsors" src="Images/logoWilson.png" width="40px">
                 </a>
                 &#160;&#160;
                 <a href="https://www.uniqlo.com/" target="_blank">
-                    <img src="Images/logoUniqlo.png" width="40px">
+                    <img class="logoSponsors" src="Images/logoUniqlo.png" width="40px">
                 </a>
                 &#160;&#160;
                 <a href="https://www.on-running.com/" target="_blank">
-                    <img src="Images/logoOnRunning.png" width="40px">
+                    <img class="logoSponsors" src="Images/logoOnRunning.png" width="40px">
                 </a>
 
             </div>
