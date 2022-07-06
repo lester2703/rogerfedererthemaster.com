@@ -33,6 +33,25 @@ if (isset($_GET['newsletter'])) {
         echo '<script>alert("Subscription to the newsletter is registered.")</script>';
 } ?>
 
+<div class="container mt-5" id="profil" style="color: rgb(255, 255, 255);">
+    <div class="row">
+        <div class="col-sm-2">
+            <img src="Images/RogerFedererPNG.png" width="150px">
+        </div>
+
+        <div class="col-sm-5">
+            <p style="font-size: 16px;"><br>
+                <b>Name:</b> Roger Federer<br>
+                <b>Age:</b> 40<br>
+                <b>ATP Ranking:</b> 97<br>
+                <b>Grand Slams:</b> 20<br>
+                <b> Masters 1000:</b> 28<br>
+                <b>Titles:</b> 103<br>
+            </p>
+        </div>
+    </div>
+</div>
+
 <div class="container mt-5" style="color: rgb(255, 255, 255);">
     <div class="row">
 
