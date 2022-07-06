@@ -20,7 +20,7 @@
             <div class="col-sm-3">
                 <h3>Instagram</h3>
                 <a href="https://www.instagram.com/rogerfedererthemaster/" target="_blank" class="rftminsta">
-                    <img src="Images/Logos/RFTMinsta.png" width="45px"><br>
+                    <img src="Images/Logos/logoRFTMInsta" width="45px"><br>
                     @rogerfedererthemaster
                 </a>
                 <br>
