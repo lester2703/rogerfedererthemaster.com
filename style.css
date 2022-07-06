@@ -1,6 +1,6 @@
 /*
 . pour class
-rien pour id
+# pour id
 rien pour tout un ensemble de balises
 */
 html {
@@ -28,6 +28,8 @@ a:hover
 {
 	border: 2px solid; //transparent
 }
+
+
 
 /*
 p

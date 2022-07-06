@@ -2,9 +2,9 @@
 <html>
 
 <head>
-    <meta charset="UTF-8" />
+    <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style.css"/>
     <title>Roger Federer the Master</title>
     <meta name="description" content="Official Website from the followed worldwide fanpage @rogerfederthemaster">
     <link rel="icon" type="image/png" sizes="16x16" href="Images/Onglet/logoTab2.png">
@@ -24,44 +24,49 @@
 
 
 <body class="bodyHome">
-    <?php include("entete.php"); ?>
+<?php include("entete.php"); ?>
 
-    <?php
-    if (isset($_GET['newsletter'])) {
-        if ($_GET['newsletter'] == 1)
-            //echo "<p style='color:#22ff00; text-align: center; font-size: 20px;font-weight: bold'><br>Signed up!</p>";
-            echo '<script>alert("Subscription to the newsletter is registered.")</script>';
-    }?>
+<?php
+if (isset($_GET['newsletter'])) {
+    if ($_GET['newsletter'] == 1)
+        //echo "<p style='color:#22ff00; text-align: center; font-size: 20px;font-weight: bold'><br>Signed up!</p>";
+        echo '<script>alert("Subscription to the newsletter is registered.")</script>';
+} ?>
 
-    <div class="container mt-5" style="color: rgb(255, 255, 255);">
-        <div class="row">
-            
-            <div class="col-sm-4" >
-                <h3>Welcome all!</h3>
-                <p>
-                    More than three years ago, I started to share pictures of my idol Roger Federer on Instagram.
-                    As of today, more than 45.000 fans have joined the community by subscribing to my fanpage.<br>
-                    Be a part of it too!
-                </p>
-            </div>
-            
-            <div class="col-sm-4">
-                <h3>Next tournaments</h3>
-                <ul>
-                    <?php include("getTournaments.php"); ?>
-                </ul>
-            </div>
-            
-            <div class="col-sm-4">
-                <h3>Last matches</h3>
-                <ul>
-                    <?php include("getLastMatches.php"); ?>
-                </ul>
-            </div>
+<div class="container mt-5" style="color: rgb(255, 255, 255);">
+    <div class="row">
+
+        <div class="col-sm-4">
+            <h3>Welcome all!</h3>
+            <p>
+                More than three years ago, I started to share pictures of my idol Roger Federer on Instagram.
+                As of today, more than 45.000 fans have joined the community by subscribing to my fanpage.<br>
+                Be a part of it too!
+            </p>
+        </div>
+
+        <div class="col-sm-4">
+            <h3>Next tournaments</h3>
+            <ul>
+                <?php include("getTournaments.php"); ?>
+            </ul>
+        </div>
+
+        <div class="col-sm-4">
+            <h3>Last matches</h3>
+            <ul>
+                <?php include("getLastMatches.php"); ?>
+            </ul>
+            <p>> More results on
+                <a href="https://www.flashscore.com/player/federer-roger/GrsQDFC0/results/" target="_blank">
+                    <u>Flashscore</u>
+                </a>
+            </p>
         </div>
     </div>
-    
-    <?php include("footer.php"); ?>
+</div>
+
+<?php include("footer.php"); ?>
 </body>
 
 </html>
