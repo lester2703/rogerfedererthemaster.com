@@ -3,6 +3,9 @@
 rien pour id
 rien pour tout un ensemble de balises
 */
+html {
+	scroll-behavior: smooth;
+}
 
 body
 {
