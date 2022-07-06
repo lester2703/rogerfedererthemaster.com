@@ -33,7 +33,7 @@ if (isset($_GET['newsletter'])) {
         echo '<script>alert("Subscription to the newsletter is registered.")</script>';
 } ?>
 
-<div class="container mt-5" id="profil" style="color: rgb(255, 255, 255);">
+<div class="container mt-5" style="color: rgb(255, 255, 255);">
     <div class="row" style="border-left: 2px solid;">
         <div class="col-sm-2">
             <img src="Images/RogerFedererPNG.png" width="170px">
