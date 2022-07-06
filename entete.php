@@ -20,16 +20,16 @@
         <!-- Carrousel -->
         <div class="carousel-inner">
             <div class="carousel-item active" data-interval="4000">
-                <img src="Images/banniere1.png" alt="Carrousel slide 1" class="d-block w-100">
+                <img src="Images/Banniere/banniere1.png" alt="Carrousel slide 1" class="d-block w-100">
             </div>
             <div class="carousel-item" data-interval="4000">
-                <img src="Images/banniere2.png" alt="Carrousel slide 2" class="d-block w-100">
+                <img src="Images/Banniere/banniere2.png" alt="Carrousel slide 2" class="d-block w-100">
             </div>
             <div class="carousel-item" data-interval="4000">
-                <img src="Images/banniere3.png" alt="Carrousel slide 3" class="d-block w-100">
+                <img src="Images/Banniere/banniere3.png" alt="Carrousel slide 3" class="d-block w-100">
             </div>
             <div class="carousel-item" data-interval="4000">
-                <img src="Images/banniere4.png" alt="Carrousel slide 4" class="d-block w-100">
+                <img src="Images/Banniere/banniere4.png" alt="Carrousel slide 4" class="d-block w-100">
             </div>
         </div>
 

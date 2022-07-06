@@ -20,7 +20,7 @@
             <div class="col-sm-3">
                 <h3>Instagram</h3>
                 <a href="https://www.instagram.com/rogerfedererthemaster/" target="_blank" class="rftminsta">
-                    <img src="Images/RFTMinsta.png" width="45px"><br>
+                    <img src="Images/Logos/RFTMinsta.png" width="45px"><br>
                     @rogerfedererthemaster
                 </a>
                 <br>
@@ -46,15 +46,15 @@
                 <br>
                 -->
                 <a  href="https://www.wilson.com/" target="_blank">
-                    <img class="logoSponsors" src="Images/logoWilson.png" width="40px">
+                    <img class="logoSponsors" src="Images/Logos/logoWilson.png" width="40px">
                 </a>
                 &#160;&#160;
                 <a href="https://www.uniqlo.com/" target="_blank">
-                    <img class="logoSponsors" src="Images/logoUniqlo.png" width="40px">
+                    <img class="logoSponsors" src="Images/Logos/logoUniqlo.png" width="40px">
                 </a>
                 &#160;&#160;
                 <a href="https://www.on-running.com/" target="_blank">
-                    <img class="logoSponsors" src="Images/logoOnRunning.png" width="40px">
+                    <img class="logoSponsors" src="Images/Logos/logoOnRunning.png" width="40px">
                 </a>
 
             </div>
