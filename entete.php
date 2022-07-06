@@ -43,12 +43,9 @@
             <span class="sr-only">Suivant</span>
         </a>
     </div>
-
-
-
 </div>
 
-<div class="container">
+<div>
     <iframe class="container" src="https://static.rolex.com/clocks/2020/federer_mobile_HTML_180x75/rolex.html"
             class="m_rolex_clock" SCROLLING=NO frameborder=NO width="1110px" height="75px"></iframe>
 </div>
