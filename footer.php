@@ -59,4 +59,8 @@
 
         </div>
         <br>
+        <p style="color: rgb(170, 170, 170); font-size: 14px;">
+            &copy; 2022 - rogerfedererthemaster.com. All rights reserved.
+        </p>
     </div>
+</div>
