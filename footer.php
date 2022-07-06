@@ -28,9 +28,21 @@
 
             <div class="col-sm-3">
                 <h3>Sponsors</h3>
-                <a href="https://www.wilson.com/" target="_blank">Wilson</a><br>
-                <a href="https://www.uniqlo.com/" target="_blank">Uniqlo</a><br>
-                <a href="https://www.on-running.com/" target="_blank">On Running</a><br>
+                <a href="https://www.wilson.com/" target="_blank">
+                    <img src="Images/logoWilson.png" width="20px">
+                    - Wilson
+                </a>
+                <br>
+                <a href="https://www.uniqlo.com/" target="_blank">
+                    <img src="Images/logoUniqlo.png" width="20px">
+                    - Uniqlo
+                </a>
+                <br>
+                <a href="https://www.on-running.com/" target="_blank">
+                    <img src="Images/logoOnRunning.png" width="20px">
+                    - On Running
+                </a>
+                <br>
             </div>
 
             <div class="col-sm-3">
