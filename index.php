@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="style.css" />
-    <title>RFTM Website</title>
+    <title>rogerfedererthemaster.com</title>
     <meta name="description" content="" />
     <link rel="icon" type="image/png" sizes="16x16" href="Images/Logo RFTM Blanc PNG.png">
     <link rel="apple-touch-icon" href="Images/RFTM2.png">
