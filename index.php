@@ -51,7 +51,7 @@ if (isset($_GET['newsletter'])) {
                 <b>Plays:</b> Right-Handed, One-Handed Backhand<br>
                 <b>Coach:</b> Severin Luthi, Ivan Ljubicic<br>
             </p>
-        </div>        
+        </div>
     </div>
 </div>
 

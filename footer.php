@@ -76,6 +76,6 @@
         <p style="color: rgb(170, 170, 170); font-size: 14px;">
             &copy; 2022 - rogerfedererthemaster.com. All rights reserved.
         </p>
-        <a href="#">Back to top ↑</a>
+        <a href="https://rogerfedererthemaster.com/#">Back to top ↑</a>
     </div>
 </div>
