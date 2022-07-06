@@ -34,21 +34,23 @@ if (isset($_GET['newsletter'])) {
 } ?>
 
 <div class="container mt-5" id="profil" style="color: rgb(255, 255, 255);">
-    <div class="row">
+    <div class="row" style="border-left: 2px solid;">
         <div class="col-sm-2">
-            <img src="Images/RogerFedererPNG.png" width="150px">
+            <img src="Images/RogerFedererPNG.png" width="170px">
         </div>
 
-        <div class="col-sm-5">
+        <div class="col-sm-3">
             <p style="font-size: 16px;"><br>
                 <b>Name:</b> Roger Federer<br>
-                <b>Age:</b> 40<br>
+                <b>Nationality:</b> Switzerland<br>
+                <b>Age:</b> 40 (1981.08.08)<br>
                 <b>ATP Ranking:</b> 97<br>
                 <b>Grand Slams:</b> 20<br>
-                <b> Masters 1000:</b> 28<br>
+                <b>Masters 1000:</b> 28<br>
                 <b>Titles:</b> 103<br>
+                <b>Coach:</b> Severin Luthi, Ivan Ljubicic<br>
             </p>
-        </div>
+        </div>        
     </div>
 </div>
 
