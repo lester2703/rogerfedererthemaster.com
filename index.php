@@ -39,7 +39,7 @@ if (isset($_GET['newsletter'])) {
             <img src="Images/RogerFedererPNG.png" width="170px">
         </div>
 
-        <div class="col-sm-3">
+        <div class="col-sm-4">
             <p style="font-size: 16px;"><br>
                 <b>Name:</b> Roger Federer<br>
                 <b>Nationality:</b> Switzerland<br>
@@ -48,6 +48,7 @@ if (isset($_GET['newsletter'])) {
                 <b>Grand Slams:</b> 20<br>
                 <b>Masters 1000:</b> 28<br>
                 <b>Titles:</b> 103<br>
+                <b>Play:</b> Right-Handed, One-Handed Backhand<br>
                 <b>Coach:</b> Severin Luthi, Ivan Ljubicic<br>
             </p>
         </div>        
