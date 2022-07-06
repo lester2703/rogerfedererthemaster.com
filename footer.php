@@ -11,27 +11,40 @@
         <br>
         <div class="row">
             <br>
-            <div class="col-sm-4">
+            <div class="col-sm-3">
                 <h3>Contact</h3>
                 Allister K.<br>
                 <a href="mailto:contact@rogerfedererthemaster.com">contact@rogerfedererthemaster.com</a>
             </div>
-            <div class="col-sm-4">
+
+            <div class="col-sm-3">
                 <h3>Instagram</h3>
-                <a href="https://www.instagram.com/rogerfedererthemaster/"
-                   target="_blank">@rogerfedererthemaster</a><br>
+                <a href="https://www.instagram.com/rogerfedererthemaster/" target="_blank" class="rftminsta">
+                    <img src="Images/RFTMinsta.png" width="45px"><br>
+                    @rogerfedererthemaster
+                </a>
+                <br>
             </div>
-            <div class="col-sm-4">
+
+            <div class="col-sm-3">
+                <h3>Sponsors</h3>
+                <a href="https://www.wilson.com/" target="_blank">Wilson</a><br>
+                <a href="https://www.uniqlo.com/" target="_blank">Uniqlo</a><br>
+                <a href="https://www.on-running.com/" target="_blank">On Running</a><br>
+            </div>
+
+            <div class="col-sm-3">
                 <h3>Newsletter</h3>
                 <form action="inscriptionNewsletter.php" method="post">
                     <div class="form-group">
-                        <input type="email" style="width: 300px;" name="Email"
+                        <input type="email" style="width: 270px;" name="Email"
                                placeholder="Email adress">
                         <br>
                         <button type="submit" class="btn btn-light btn-outline-primary">Subscribe</button>
                     </div>
                 </form>
             </div>
+
         </div>
         <br>
     </div>
