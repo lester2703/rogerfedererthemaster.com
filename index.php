@@ -5,7 +5,7 @@
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="style.css"/>
-    <title>Roger Federer the Master</title>
+    <title>Roger Federer the Master - Home</title>
     <meta name="description" content="Official Website from the followed worldwide fanpage @rogerfederthemaster">
     <link rel="icon" type="image/png" sizes="16x16" href="Images/Onglet/logoTab2.png">
     <link rel="apple-touch-icon" href="Images/RFTM2.png">
