@@ -44,7 +44,7 @@ if (isset($_GET['newsletter'])) {
                 <b>Name:</b> Roger Federer<br>
                 <b>Nationality:</b> Switzerland<br>
                 <b>Age:</b> 40 (1981.08.08)<br>
-                <b>ATP Ranking:</b> 97<br>
+                <b>ATP Ranking:</b> NC<br>
                 <b>Grand Slams:</b> 20<br>
                 <b>Masters 1000:</b> 28<br>
                 <b>Titles:</b> 103<br>
