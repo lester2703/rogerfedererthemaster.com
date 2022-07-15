@@ -13,8 +13,11 @@
             <br>
             <div class="col-sm-3">
                 <h3>Contact</h3>
-                Allister K.<br>
+                <!-- Allister K.<br> -->
                 <a href="mailto:contact@rogerfedererthemaster.com">contact@rogerfedererthemaster.com</a>
+                <a href="pageContact.php">
+                    <button type="submit" class="btn btn-outline-light">Contact me!</button>
+                </a>
             </div>
 
             <div class="col-sm-3">
@@ -45,7 +48,7 @@
                 </a>
                 <br>
                 -->
-                <a  href="https://www.wilson.com/" target="_blank">
+                <a href="https://www.wilson.com/" target="_blank">
                     <img class="logoSponsors" src="Images/Logos/logoWilson.png" width="40px">
                 </a>
                 &#160;&#160;
@@ -66,7 +69,7 @@
                         <input type="email" style="width: 270px;" name="Email"
                                placeholder="Email adress">
                         <br>
-                        <button type="submit" class="btn btn-light btn-outline-primary">Subscribe</button>
+                        <button type="submit" class="btn btn-outline-light">Subscribe</button>
                     </div>
                 </form>
             </div>
@@ -76,6 +79,8 @@
         <p style="color: rgb(170, 170, 170); font-size: 14px;">
             &copy; 2022 - rogerfedererthemaster.com. All rights reserved.
         </p>
-        <a href="https://rogerfedererthemaster.com/#">Back to top ↑</a>
+        <a href="#">
+            <button type="submit" class="btn btn-outline-light">Back to top ↑</button>
+        </a>
     </div>
 </div>
