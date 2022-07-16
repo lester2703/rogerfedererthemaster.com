@@ -18,6 +18,7 @@
                 <a href="pageContact.php">
                     <button type="submit" class="btn btn-outline-light">Contact me!</button>
                 </a>
+                <p hidden>Allister Kohn</p>
             </div>
 
             <div class="col-sm-3">
