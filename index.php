@@ -4,7 +4,8 @@
 <head lang="en">
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Official website of the Instagram fanpage followed worldwide: @rogerfedererthemaster. Click to get all the information about Roger Federer!">
+    <meta name="description"
+          content="Official website of the Instagram fanpage followed worldwide: @rogerfedererthemaster. Click to get all the information about Roger Federer!">
     <link rel="stylesheet" href="style.css"/>
     <title>Roger Federer the Master - Home</title>
     <link rel="icon" type="image/png" sizes="16x16" href="Images/Onglet/logoTab2.png">

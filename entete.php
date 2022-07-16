@@ -1,3 +1,5 @@
+<link rel="stylesheet" href="style.css"/>
+
 <div class="container">
     <center>
         <br><br>
@@ -47,11 +49,10 @@
 
 <div>
     <center>
-        <iframe class="container" src="https://static.rolex.com/clocks/2020/federer_mobile_HTML_180x75/rolex.html"
-                class="m_rolex_clock" SCROLLING=NO frameborder=NO width="1110px" height="75px"></iframe>
+        <iframe id="rolex" class="container" src="https://static.rolex.com/clocks/2020/federer_mobile_HTML_180x75/rolex.html"
+                SCROLLING=NO frameborder=NO width="1110px" height="75px"></iframe>
     </center>
 </div>
-
 
 <!--
 <center>
