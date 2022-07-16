@@ -7,7 +7,7 @@
     <meta name="description"
           content="Official website of the Instagram fanpage followed worldwide: @rogerfedererthemaster. Click to get all the information about Roger Federer!">
     <link rel="stylesheet" href="style.css"/>
-    <title>Roger Federer the Master - Home</title>
+    <title>Roger Federer the Master - Contact</title>
     <link rel="icon" type="image/png" sizes="16x16" href="Images/Onglet/logoTab2.png">
     <link rel="apple-touch-icon" href="Images/RFTM2.png">
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
