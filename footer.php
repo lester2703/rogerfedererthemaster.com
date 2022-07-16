@@ -16,7 +16,7 @@
                 <!-- Allister K.<br> -->
                 <a href="mailto:contact@rogerfedererthemaster.com">contact@rogerfedererthemaster.com</a>
                 <a href="pageContact.php">
-                    <button type="submit" class="btn btn-outline-light">Contact me!</button>
+                    <button type="submit" class="btn btn-outline-light">Contact me</button>
                 </a>
                 <p hidden>Allister Kohn</p>
             </div>
@@ -50,15 +50,15 @@
                 <br>
                 -->
                 <a href="https://www.wilson.com/" target="_blank">
-                    <img class="logoSponsors" src="Images/Logos/logoWilson.png" width="40px">
+                    <img class="logoSponsors" src="Images/Logos/logoWilson.png" width="45px">
                 </a>
                 &#160;&#160;
                 <a href="https://www.uniqlo.com/" target="_blank">
-                    <img class="logoSponsors" src="Images/Logos/logoUniqlo.png" width="40px">
+                    <img class="logoSponsors" src="Images/Logos/logoUniqlo.png" width="45px">
                 </a>
                 &#160;&#160;
                 <a href="https://www.on-running.com/" target="_blank">
-                    <img class="logoSponsors" src="Images/Logos/logoOnRunning.png" width="40px">
+                    <img class="logoSponsors" src="Images/Logos/logoOnRunning.png" width="45px">
                 </a>
 
             </div>
