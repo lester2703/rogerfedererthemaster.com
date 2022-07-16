@@ -1,5 +1,6 @@
 <link rel="stylesheet" href="style.css"/>
 
+<!-- Logo RFTM -->
 <div class="container">
     <center>
         <br><br>
@@ -9,6 +10,7 @@
     </center>
 </div>
 
+<!-- Carousel -->
 <div class="container"><br><br>
     <div id="demo" class="carousel slide carousel-fade" data-ride="carousel">
         <!-- Indicateurs -->
@@ -47,16 +49,63 @@
     </div>
 </div>
 
+<!-- Animation Rolex
 <div>
     <center>
-        <iframe id="rolex" class="container" src="https://static.rolex.com/clocks/2020/federer_mobile_HTML_180x75/rolex.html"
+        <iframe id="rolex" class="container"
+                src="https://static.rolex.com/clocks/2020/federer_mobile_HTML_180x75/rolex.html"
                 SCROLLING=NO frameborder=NO width="1110px" height="75px"></iframe>
     </center>
 </div>
-
-<!--
-<center>
-    <br/><br/>
-    <img src="Images/banniere.jpeg" alt="banniere" title="Bannière RFTM" width="1000"/>
-</center>
 -->
+
+<!-- Barre de menu -->
+<div class="container" style="background-color: rgb(0,96,57)">
+    <center>
+        <nav class="navbar navbar-expand-lg navbar-dark">
+
+            <a class="navbar-brand" href="index.php">Home</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+
+                    <li class="nav-item"> <!-- ajouter "active" dans class pour mettre en gras légèrement -->
+                        <a class="nav-link" href="#">News<span class="sr-only">(current)</span></a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                           data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Dropdown
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
+                    </li>
+
+                </ul>
+
+                <!--
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                </form>
+                -->
+                <iframe id="rolex"
+                        src="https://static.rolex.com/clocks/2020/federer_mobile_HTML_180x75/rolex.html"
+                        SCROLLING=NO frameborder=NO width="180px" height="75px"></iframe>
+            </div>
+        </nav>
+    </center>
+</div>
