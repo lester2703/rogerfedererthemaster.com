@@ -28,50 +28,63 @@
 <?php include("entete.php"); ?>
 
 <div class="container mt-5" style="color: rgb(255, 255, 255);">
+    <?php
+    if (isset($_GET['value'])) {
+        if ($_GET['value'] == 1)
+            echo "<p id='ok' style='color:white; text-align: left; font-size: 20px;font-weight: bold'>Your message has been sent successfully.&nbsp;&nbsp; ";
+            echo "<a href='index.php'>
+                    <button type='submit' class='btn btn-outline-light'>Back to main page</button>
+                </a>
+                </p>";
+    }
+    ?>
+
     <div class="row">
-
         <div class="col-sm-4">
-            <table> <!-- border="1" -->
-                <tr>
-                    <td>Name:</td>
-                    <td>
-                        <input type="text" placeholder="Your Name">
-                    </td>
-                </tr>
-                <tr>
-                    <td>First name:</td>
-                    <td>
-                        <input type="text" placeholder="Your First Name">
-                    </td>
-                </tr>
-                <tr height="50px">
-                    <td valign="top">Email adress:</td>
-                    <td valign="top">
-                        <input type="email" placeholder="Your Email Adress">
-                    </td>
-                </tr>
-                <tr>
-                    <td>Subject:</td>
-                    <td>
-                        <input type="text" placeholder="Your Subject">
-                    </td>
-                </tr>
-                <tr>
-                    <td valign="top">Message:</td>
-                    <td>
-                        <textarea rows="4" cols="50" maxlength="500" placeholder="Your Message"></textarea>
-                    </td>
-                </tr>
-                <tr height="100px">
-                    <td style="visibility:hidden;">wwwwwwwww</td>
-                    <td>
-                        <a href="index.php">
+            <form action="saveMessages.php" method="post">
+                <table> <!-- border="1" -->
+                    <tr>
+                        <td>Name:</td>
+                        <td>
+                            <input type="text" id="name" name="name" placeholder="Your Name" required="required">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>First name:</td>
+                        <td>
+                            <input type="text" id="fistName" name="firstName" placeholder="Your First Name"
+                                   required="required">
+                        </td>
+                    </tr>
+                    <tr height="50px">
+                        <td valign="top">Email adress:</td>
+                        <td valign="top">
+                            <input type="email" id="email" name="email" placeholder="Your Email Adress"
+                                   required="required">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Subject:</td>
+                        <td>
+                            <input type="text" id="subject" name="subject" placeholder="Your Subject"
+                                   required="required">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td valign="top">Message:</td>
+                        <td>
+                            <textarea id="message" name="message" rows="4" cols="50" maxlength="500"
+                                      placeholder="Your Message" required="required"></textarea>
+                        </td>
+                    </tr>
+                    <tr height="100px">
+                        <td style="visibility:hidden;">wwwwwwwww</td>
+                        <td>
                             <button type="submit" class="btn btn-outline-light" style="width:80px">Send</button>
-                        </a>
-                    </td>
-
-                </tr>
-            </table>
+                        </td>
+                    </tr>
+                </table>
+            </form>
         </div>
     </div>
 </div>
