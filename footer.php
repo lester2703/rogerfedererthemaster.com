@@ -14,7 +14,7 @@
             <div class="col-sm-3">
                 <h3>Contact</h3>
                 <!-- Allister K.<br> -->
-                <a href="mailto:contact@rogerfedererthemaster.com">contact@rogerfedererthemaster.com</a>
+                <a href="mailto:contact@rogerfedererthemaster.com">contact@rogerfedererthemaster.com</a><br>
                 <a href="pageContact.php">
                     <button type="submit" class="btn btn-outline-light">Contact me</button>
                 </a>
