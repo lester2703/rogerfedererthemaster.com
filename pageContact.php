@@ -73,7 +73,7 @@
                     <tr>
                         <td valign="top">Message:</td>
                         <td>
-                            <textarea id="message" name="message" rows="4" cols="50" maxlength="500"
+                            <textarea id="message" name="message" rows="4" cols="30" maxlength="500"
                                       placeholder="Your Message" required="required"></textarea>
                         </td>
                     </tr>

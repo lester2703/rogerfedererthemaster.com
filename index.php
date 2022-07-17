@@ -60,7 +60,7 @@ if (isset($_GET['newsletter'])) {
 <div class="container mt-5" style="color: rgb(255, 255, 255);">
     <div class="row">
 
-        <div class="col-sm-4">
+        <div class="col-sm-4" id="welcomeAll">
             <h3>Welcome all!</h3>
             <p>
                 More than three years ago, I started to share pictures of my idol Roger Federer on Instagram.
@@ -69,14 +69,14 @@ if (isset($_GET['newsletter'])) {
             </p>
         </div>
 
-        <div class="col-sm-4">
+        <div class="col-sm-4" id="nextTournaments">
             <h3>Next tournaments</h3>
             <ul>
                 <?php include("getTournaments.php"); ?>
             </ul>
         </div>
 
-        <div class="col-sm-4">
+        <div class="col-sm-4" id="lastMatches">
             <h3>Last matches</h3>
             <ul>
                 <?php include("getLastMatches.php"); ?>

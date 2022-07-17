@@ -1,4 +1,28 @@
-<link rel="stylesheet" href="style.css"/>
+<style>
+    .header {
+        padding: 10px 16px;
+        background: #555;
+        color: #f1f1f1;
+    }
+
+    /* Page content */
+    .content {
+        padding: 16px;
+    }
+
+    /* The sticky class is added to the header with JS when it reaches its scroll position */
+    .sticky {
+        position: fixed;
+        top: 0;
+        width: 100%
+    }
+
+    /* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
+    .sticky + .content {
+        padding-top: 102px;
+    }
+</style>
+
 
 <!-- Logo RFTM -->
 <div class="container">
@@ -60,7 +84,7 @@
 -->
 
 <!-- Barre de menu -->
-<div class="container" style="background-color: rgb(0,96,57)">
+<div class="container" style="background-color: rgb(0,96,57);">
     <center>
         <nav class="navbar navbar-expand-lg navbar-dark">
 
@@ -72,27 +96,27 @@
 
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="index.php" id="navbarDropdown" role="button"
+                           data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">News</a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="index.php#nextTournaments">Next tournaments</a>
+                            <a class="dropdown-item" href="index.php#lastMatches">Last matches</a>
+                            <!--
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                            -->
+                        </div>
+                    </li>
 
                     <li class="nav-item"> <!-- ajouter "active" dans class pour mettre en gras légèrement -->
-                        <a class="nav-link" href="#">News<span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="aboutRFTM.php">About RFTM<span class="sr-only">(current)</span></a>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Link</a>
+                        <a class="nav-link" href="pageContact.php">Contact me</a>
                     </li>
 
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                           data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Dropdown
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="#">Action</a>
-                            <a class="dropdown-item" href="#">Another action</a>
-                            <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="#">Something else here</a>
-                        </div>
-                    </li>
 
                 </ul>
 
