@@ -30,9 +30,9 @@
 <div class="container mt-5" style="color: rgb(255, 255, 255);">
     <div class="row">
         <div class="col-sm-12">
-            <p>About RFTM</p>
-            In January 2019, a friend gave me to start a Roger Federer fanpage to compete with his Novak Djokovic one. The same evening I created the account @rogerfedererthemaster where I posted some pictures I found on the internet. The beginning was difficult, the account was not very successful... One year later, my account had a little more than 5000 followers. Then came the Covid pandemic which pushed many of us to spend more time on our phones/computers. That's when this account grew by leaps and bounds. In addition, I started posting "reels" of Roger's best points. By the end of 2020, more than 40,000 people around the world was following to my fanpage.
-            Today, my account has 45.000 subscribers, all of them more fan of Roger than the others. And this number is growing every day.
+            <h3>About RFTM</h3>
+            In January 2019, a friend gave me to start a Roger Federer fanpage to compete with his Novak Djokovic one. The same evening I created the account @rogerfedererthemaster where I posted some pictures I found on the internet. The beginning was difficult, the account was not very successful... One year later, my account had a little more than 5000 followers. Then came the Covid pandemic which pushed many of us to spend more time on our phones/computers. That's when this account grew by leaps and bounds. In addition, I started posting "reels" of Roger's best points. By the end of 2020, more than 40,000 people around the world was following to my fanpage.<br>
+            </br>Today, my account has 45.000 subscribers, all of them more fan of Roger than the others. And this number is growing every day. Severin Luthi is also a subscriber.
         </div>
     </div>
 </div>
