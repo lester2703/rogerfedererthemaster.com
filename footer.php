@@ -31,23 +31,6 @@
 
             <div class="col-sm-3">
                 <h3>Sponsors</h3>
-                <!--
-                <a href="https://www.wilson.com/" target="_blank">
-                    <img src="Images/logoWilson.png" width="20px">
-                    - Wilson
-                </a>
-                <br>
-                <a href="https://www.uniqlo.com/" target="_blank">
-                    <img src="Images/logoUniqlo.png" width="20px">
-                    - Uniqlo
-                </a>
-                <br>
-                <a href="https://www.on-running.com/" target="_blank">
-                    <img src="Images/logoOnRunning.png" width="20px">
-                    - On Running
-                </a>
-                <br>
-                -->
                 <a href="https://www.wilson.com/" target="_blank">
                     <img class="logoSponsors" src="Images/Logos/logoWilson.png" width="45px">
                 </a>
@@ -67,7 +50,7 @@
                 <form action="inscriptionNewsletter.php" method="post">
                     <div class="form-group">
                         <input type="email" style="width: 270px;" name="Email"
-                               placeholder="Email adress">
+                               placeholder="Email adress" required="required">
                         <br>
                         <button type="submit" class="btn btn-outline-light">Subscribe</button>
                     </div>
