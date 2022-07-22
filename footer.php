@@ -60,7 +60,7 @@
         </div>
         <br>
         <p style="color: rgb(170, 170, 170); font-size: 14px;">
-            &copy; 2022 - rogerfedererthemaster.com. All rights reserved.
+            Copyright &copy; 2022 - rogerfedererthemaster.com. All rights reserved.
         </p>
         <a href="#">
             <button type="submit" class="btn btn-outline-light">Back to top ↑</button>

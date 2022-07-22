@@ -83,6 +83,7 @@ if (isset($_GET['newsletter'])) {
             </ul>
             <p>> More results on
                 <a href="https://www.flashscore.com/player/federer-roger/GrsQDFC0/results/" target="_blank">
+                    <img src="Images/Logos/logoFlashscore.png" width="20px">
                     <u>Flashscore</u>
                 </a>
             </p>
