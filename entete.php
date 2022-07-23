@@ -3,7 +3,7 @@
     <center>
         <br><br>
         <a href="index.php">
-            <img src="Images/RFTM3.png" alt="Logo" title="Logo RFTM" width="230"/>
+            <img src="Images/RFTM3.png" alt="Logo" width="230"/>
         </a>
     </center>
 </div>
